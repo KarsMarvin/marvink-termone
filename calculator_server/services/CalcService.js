@@ -1,5 +1,5 @@
 
-class CalculatorService {
+class CalcService {
    static doMath(operand1, operand2, operation) {
     if(operation === '/' && operand2 == 0) throw new Error('Cannot divide by 0');
     switch(operation) {
@@ -23,4 +23,4 @@ class CalculatorService {
    }
 }
 
-module.exports = CalculatorService;
+module.exports = CalcService;

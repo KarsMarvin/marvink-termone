@@ -1,13 +1,13 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "backend for the devops exam",
+  "description": "backend for the calculator devops exam",
   "main": "server.js",
   "scripts": {
     "test": "jest --watchAll --verbose --runInBand",
     "start": "nodemon server.js"
   },
-  "author": "KAMARA Fidele",
+  "author": "Karera MArvin",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
